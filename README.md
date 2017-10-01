@@ -1,14 +1,14 @@
 ## Deep Learning paper and algorithm implementations
 
-This repo collects exercises and provides solutions and code for deep learning papers and algorithms. Implementations are loosely organized by topic and grouped into folders. In addition to the implementations, each folder contains a README with learning goals and a list of exercises.
+This repo collects exercises and provides code for deep learning papers and algorithms. Implementations are loosely organized by topic and grouped into folders. In addition to implementations, each folder contains a README with learning goals and a list of exercises. Both folders and exercises are arranged in increasing order of complexity.
 
-All code is written in Python 3 and implementations are either in TensorFlow or PyTorch.
+All code is written in Python 3 and implementations are in either TensorFlow or PyTorch.
 
 ### Table of Contents
 
-1. 🎯 [Machine learning, linear algebra, non-deep classifiers](1-machine-learning)
-2. 🔑 [Neural net components](2-neural-nets)
-3. 📚 [Natural language processing, NER, RNNs](3-rnns)
+1. 🎯 [Machine learning: linear algebra, non-deep classifiers](1-machine-learning)
+2. 🔑 [Neural net components: softmax, batchnorm, dropout](2-neural-nets)
+3. 📚 [Natural language processing, word2vec + subwords, NER, neural machine translation, attention](3-rnns)
 4. 🎨 [Image classification, convolutional networks, image segmentation, generative models](4-cnns)
 5. 💬 [Combined feature representations, VQA, captioning, saliency maps](5-rnns-cnns)
 
@@ -40,4 +40,4 @@ All code is written in Python 3 and implementations are either in TensorFlow or 
 - http://carpedm20.github.io
 
 
-Inspired by the amazing [Denny Britz](https://github.com/dennybritz/reinforcement-learning/blob/master/README.md). I basically just added the emojis.
+Inspired by the amazing [Denny Britz](https://github.com/dennybritz/reinforcement-learning/blob/master/README.md) (my chief innovation on his format is that I added emojis).

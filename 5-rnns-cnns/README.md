@@ -2,7 +2,8 @@
 
 ### Learning Goals
 
-- Understand the variety of techniques for combining textual and visual feature representations
+- Understand tradeoffs between various architectures for combining textual and visual feature representations
+- Understand advanced usages of attention
 
 ### Exercises
 
