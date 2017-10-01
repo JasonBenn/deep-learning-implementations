@@ -12,6 +12,15 @@ All code is written in Python 3 and implementations are in either TensorFlow or 
 4. 🎨 [Image classification, convolutional networks, image segmentation, generative models](4-cnns)
 5. 💬 [Combined feature representations, VQA, captioning, saliency maps](5-rnns-cnns)
 
+### Implemented algorithms
+
+- TODO: [Numpy Exercises](https://github.com/Kyubyong/numpy_exercises)
+- TODO: [Pytorch Exercises](https://github.com/Kyubyong/pytorch_exercises)
+- TODO: cs20si 1-3, cs224d: 1-3: word2vec
+- TODO: cs224d: 3-1: Recursive Neural Network
+- TODO: fast.ai: 12: Neural Machine Translation by Jointly Learning to Align and Translate
+- TODO: fast.ai: 13: Neural Machine Translation of Rare Words with Subword Units
+
 ### Resources
 
 #### Classes:
