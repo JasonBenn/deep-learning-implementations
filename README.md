@@ -1,66 +1,43 @@
-### About
+## Deep Learning paper and algorithm implementations
 
-This repo provides code, exercises, and solutions for common deep learning algorithms.
+This repo collects exercises and provides solutions and code for deep learning papers and algorithms. Implementations are loosely organized by topic and grouped into folders. In addition to the implementations, each folder contains a README with learning goals and a list of exercises.
 
 All code is written in Python 3 and implementations are either in TensorFlow or PyTorch.
 
 ### Table of Contents
 
-_TODO: how to break this down into categories?_
-
-- Numerical linear algebra
-- Probability theory
-- CNNs
-- RNNs
-- NIPS 17 implementations
-
-### List of Implemented Algorithms
-
-- Pick a cool paper from NIPS. Build up to implementing it by doing any related homeworks.
+1. 🎯 [Machine learning, linear algebra, non-deep classifiers](1-machine-learning)
+2. 🔑 [Neural net components](2-neural-nets)
+3. 📚 [Natural language processing, NER, RNNs](3-rnns)
+4. 🎨 [Image classification, convolutional networks, image segmentation, generative models](4-cnns)
+5. 💬 [Combined feature representations, VQA, captioning, saliency maps](5-rnns-cnns)
 
 ### Resources
 
-Classes:
+#### Classes:
 
--
+- [fast.ai 1](http://course.fast.ai/): Practical Deep Learning For Coders
+- [fast.ai 2](http://course.fast.ai/): Cutting Edge Deep Learning For Coders
+- [fast.ai linalg](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md): Computational Linear Algebra for Coders
+- [CS224d](http://cs224d.stanford.edu/syllabus.html): Deep Learning for Natural Language Processing
+- [CS231n](http://cs231n.stanford.edu/syllabus.html): Convolutional Neural Networks for Visual Recognition
+- [CS20SI](https://web.stanford.edu/class/cs20si/syllabus.html): Tensorflow for Deep Learning Research
 
-Textbooks:
+#### Textbooks:
 
--
+- [The Deep Learning Book](https://www.deeplearningbook.org/)
 
-Selected papers:
+#### Tutorials:
 
--
+- [Numpy Exercises](https://github.com/Kyubyong/numpy_exercises)
+- [Pytorch Exercises](https://github.com/Kyubyong/pytorch_exercises)
+- [Tensorflow Exercises](https://github.com/Kyubyong/tensorflow-exercises)
 
-### TODO:
-
-Pick homeworks from:
-
-Stanford courses:
-
-- http://cs224d.stanford.edu/syllabus.html
-- http://cs231n.stanford.edu/syllabus.html
-- http://cs229.stanford.edu/syllabus.html
-
-course.fast.ai
-
-- http://localhost:8889/tree/deeplearning1/nbs
-- http://localhost:8889/tree/deeplearning2
-
-Learning frameworks:
-
-- https://web.stanford.edu/class/cs20si/syllabus.html
-- https://github.com/Kyubyong/pytorch_exercises
-
-Background math:
-
-- http://www.fast.ai/2017/07/17/num-lin-alg/
-
-Other implementations:
+#### Collections of implementations:
 
 - https://github.com/tensorflow/models
 - https://github.com/dennybritz/models
 - http://carpedm20.github.io
 
 
-Inspired by [Denny Britz](https://github.com/dennybritz/reinforcement-learning/blob/master/README.md).
+Inspired by the amazing [Denny Britz](https://github.com/dennybritz/reinforcement-learning/blob/master/README.md). I basically just added the emojis.
