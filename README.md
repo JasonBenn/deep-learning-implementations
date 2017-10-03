@@ -6,20 +6,21 @@ All code is written in Python 3 and implementations are in either TensorFlow or 
 
 ### Table of Contents
 
-1. 🎯 [Machine learning: linear algebra, non-deep classifiers](1-machine-learning)
-2. 🔑 [Neural net components: softmax, batchnorm, dropout](2-neural-nets)
-3. 📚 [Natural language processing, word2vec + subwords, NER, neural machine translation, attention](3-rnns)
-4. 🎨 [Image classification, convolutional networks, image segmentation, generative models](4-cnns)
-5. 💬 [Combined feature representations, VQA, captioning, saliency maps](5-rnns-cnns)
+- 🙇 [Libraries: numpy, PyTorch, TensorFlow](0-libraries)
+- 🎯 [Machine learning: linear algebra, non-deep classifiers](1-machine-learning)
+- 🔑 [Neural net components: softmax, batchnorm, dropout](2-neural-nets)
+- 📚 [Natural language processing, word2vec + subwords, NER, neural machine translation, attention](3-rnns)
+- 🎨 [Image classification, convolutional networks, image segmentation, generative models](4-cnns)
+- 💬 [Combined feature representations, VQA, captioning, saliency maps](5-rnns-cnns)
 
-### Implemented algorithms
+### Roadmap
 
-- TODO: [Numpy Exercises](https://github.com/Kyubyong/numpy_exercises)
-- TODO: [Pytorch Exercises](https://github.com/Kyubyong/pytorch_exercises)
-- TODO: cs20si 1-3, cs224d: 1-3: word2vec
-- TODO: cs224d: 3-1: Recursive Neural Network
-- TODO: fast.ai: 12: Neural Machine Translation by Jointly Learning to Align and Translate
-- TODO: fast.ai: 13: Neural Machine Translation of Rare Words with Subword Units
+- fast.ai: 13: Neural Machine Translation of Rare Words with Subword Units
+- fast.ai: 12: Neural Machine Translation by Jointly Learning to Align and Translate
+- cs224d: 3-1: Recursive Neural Network
+- cs20si 1-3, cs224d: 1-3: word2vec
+- [Pytorch Exercises](https://github.com/Kyubyong/pytorch_exercises)
+- 50%: Kyubyong's numpy exercises [[code](0-libraries/numpy-exercises)]
 
 ### Resources
 
@@ -36,17 +37,12 @@ All code is written in Python 3 and implementations are in either TensorFlow or 
 
 - [The Deep Learning Book](https://www.deeplearningbook.org/)
 
-#### Tutorials:
-
-- [Numpy Exercises](https://github.com/Kyubyong/numpy_exercises)
-- [Pytorch Exercises](https://github.com/Kyubyong/pytorch_exercises)
-- [Tensorflow Exercises](https://github.com/Kyubyong/tensorflow-exercises)
-
 #### Collections of implementations:
 
 - https://github.com/tensorflow/models
 - https://github.com/dennybritz/models
 - http://carpedm20.github.io
 
+---
 
-Inspired by the amazing [Denny Britz](https://github.com/dennybritz/reinforcement-learning/blob/master/README.md) (my chief innovation on his format is that I added emojis).
+Format inspired by [Denny Britz](https://github.com/dennybritz/reinforcement-learning/blob/master/README.md) (my chief innovation on his format is that I added emojis).
