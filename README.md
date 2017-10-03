@@ -20,7 +20,7 @@ All code is written in Python 3 and implementations are in either TensorFlow or 
 - cs224d: 3-1: Recursive Neural Network
 - cs20si 1-3, cs224d: 1-3: word2vec
 - [Pytorch Exercises](https://github.com/Kyubyong/pytorch_exercises)
-- 50%: Kyubyong's numpy exercises [[code](0-libraries/numpy-exercises)]
+- done: Kyubyong's numpy exercises [[code](0-libraries/numpy-exercises)]
 
 ### Resources
 
