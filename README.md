@@ -19,9 +19,13 @@ All code is written in Python 3 and implementations are in either TensorFlow or 
 - fast.ai: 12: Neural Machine Translation by Jointly Learning to Align and Translate
 - cs224d: 3-1: Recursive Neural Network
 - cs20si 1-3, cs224d: 1-3: word2vec
-- done: [softmax function](2-neural-nets/softmax.py)
-- wip: [Pytorch Exercises](0-libraries/pytorch-exercises)
-- done: Kyubyong's numpy exercises [[code](0-libraries/numpy-exercises)]
+
+### Done
+
+- sigmoid [[code](2-neural-nets/sigmoid.py)]
+- softmax [[code](2-neural-nets/softmax.py)]
+- Pytorch Exercises [[notebook](0-libraries/pytorch-exercises)]
+- Kyubyong's numpy exercises [[notebook](0-libraries/numpy-exercises)]
 
 ### Resources
 
