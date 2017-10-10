@@ -8,7 +8,7 @@ All code is written in Python 3 and implementations are in either TensorFlow or 
 
 - 🙇 [Libraries: numpy, PyTorch, TensorFlow](0-libraries)
 - 🎯 [Machine learning: linear algebra, non-deep classifiers](1-machine-learning)
-- 🔑 [Neural net components: softmax, batchnorm, dropout](2-neural-nets)
+- 🔑 [Neural net components: backprop, sigmoid, softmax, batchnorm, dropout](2-neural-nets)
 - 📚 [Natural language processing, word2vec + subwords, NER, neural machine translation, attention](3-rnns)
 - 🎨 [Image classification, convolutional networks, image segmentation, generative models](4-cnns)
 - 💬 [Combined feature representations, VQA, captioning, saliency maps](5-rnns-cnns)
