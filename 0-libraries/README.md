@@ -7,6 +7,8 @@
 
 ### Exercises
 
+- [PyTorch mini tutorials](https://github.com/vinhkhuc/PyTorch-Mini-Tutorials)
+- [Simple PyTorch examples](https://github.com/jcjohnson/pytorch-examples)
 - [Pytorch Exercises](https://github.com/Kyubyong/pytorch_exercises)
 - [Kyubyong's Numpy Exercises](https://github.com/Kyubyong/numpy_exercises)
 - [100 numpy exercises](https://github.com/rougier/numpy-100)
