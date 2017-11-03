@@ -13,17 +13,15 @@ All code is written in Python 3 and implementations are in either TensorFlow or 
 - 🎨 [Image classification, convolutional networks, image segmentation, generative models](4-cnns)
 - 💬 [Combined feature representations, VQA, captioning, saliency maps](5-rnns-cnns)
 
-### Roadmap
+### Implemented
 
-- fast.ai: 13: Neural Machine Translation of Rare Words with Subword Units
-- fast.ai: 12: Neural Machine Translation by Jointly Learning to Align and Translate
-- cs224d: 3-1: Recursive Neural Network
-- cs20si 1-3, cs224d: 1-3: word2vec
-
-### Done
-
-- sigmoid [[code](2-neural-nets/sigmoid.py)]
-- softmax [[code](2-neural-nets/softmax.py)]
+- CNN (simplified VGG) [[code](4-cnns/cnn.py)]
+- Char-level RNN [[code](3-rnns/rnn.py)]
+- Word2Vec [[code](2-neural-nets/word2vec.py)]
+- Simple two-layer neural net [[code](2-neural-nets/two_layer_sigmoidal_net.py)]
+- Numerical gradient checker [[code](2-neural-nets/gradient_checker.py)]
+- Sigmoid [[code](2-neural-nets/sigmoid.py)]
+- Softmax [[code](2-neural-nets/softmax.py)]
 - Pytorch Exercises [[notebook](0-libraries/pytorch-exercises)]
 - Kyubyong's numpy exercises [[notebook](0-libraries/numpy-exercises)]
 
@@ -36,7 +34,6 @@ All code is written in Python 3 and implementations are in either TensorFlow or 
 - [fast.ai linalg](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md): Computational Linear Algebra for Coders
 - [CS224d](http://cs224d.stanford.edu/syllabus.html): Deep Learning for Natural Language Processing
 - [CS231n](http://cs231n.stanford.edu/syllabus.html): Convolutional Neural Networks for Visual Recognition
-- [CS20SI](https://web.stanford.edu/class/cs20si/syllabus.html): Tensorflow for Deep Learning Research
 
 #### Textbooks:
 

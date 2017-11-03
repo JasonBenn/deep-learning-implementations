@@ -71,12 +71,12 @@ class RNN(nn.Module):
         self.log_softmax = nn.LogSoftmax()
         self.zero()
 
-    def forward(self, input):
-        combination = torch.cat((input, self.hidden))
+    def forward(self, input, hidden):
+        combination = torch.cat((input, hidden))
         output = self.input_to_output(combination.t())
-        self.hidden = self.input_to_hidden(combination.t()).t()
+        new_hidden = self.input_to_hidden(combination.t()).t()
         transformed_output = self.log_softmax(output)
-        return transformed_output
+        return transformed_output, new_hidden
 
     def zero(self):
         self._zero_grad()
@@ -103,7 +103,7 @@ def train(num_iters=100000, print_iters=5000, learning_rate=0.01):
         for label, name in all_training_examples:
             rnn.zero()
             for c in name:
-                out = rnn(Variable(c.unsqueeze(1)))
+                out, hidden = rnn(Variable(c.unsqueeze(1)), hidden)
             loss_result = loss_function(out, Variable(torch.LongTensor([label])))
             loss_result.backward(retain_graph=True)
             for param in rnn.parameters():
