@@ -15,7 +15,8 @@ All code is written in Python 3 and implementations are in either TensorFlow or 
 
 ### Implemented
 
-- CNN (simplified VGG) [[code](4-cnns/cnn.py)]
+- Vanilla GAN [[code](simplest-gan)]
+- VGG [[code](4-cnns/cnn.py)]
 - Char-level RNN [[code](3-rnns/rnn.py)]
 - Word2Vec [[code](2-neural-nets/word2vec.py)]
 - Simple two-layer neural net [[code](2-neural-nets/two_layer_sigmoidal_net.py)]
